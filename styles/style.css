@@ -71,7 +71,11 @@ nav a{
 .buttto-text{
 margin: 5px;
 }
-
+.buttto-text:hover{
+    background-color: white;
+    color: #2D25A0;
+    transition: 1s;
+}
 
                    /*-==================Header Navigation style End
                                           =====================================*/    
@@ -219,22 +223,6 @@ main{
     color: white;
 }
 
-                       /*---======================   footer
-                                            ========================----*/
-.footer-image img{
-    width: 362.1px;
-    height: 70px;
-   
-}
-
-.footer-content{
-    text-align: center;
-    background-color: white;
-    padding-bottom: 53px;
-    padding-top: 20px;
-
-}
-
 
                            /*==================All highlight copas 
                                                ================================*/
@@ -274,3 +262,24 @@ height: 100px;
                            
                              /* :::::::::::::::all hightlight end
                                                             ::::::::::::::::::::: 
+
+
+
+
+
+
+                       /*---======================   footer
+                                            ========================----*/
+.footer-image img{
+ width: 362.1px;
+ height: 70px;
+                                               
+}
+                                            
+.footer-content{
+text-align: center;
+background-color: white;
+padding-bottom: 53px;
+padding-top: 20px;
+                                            
+}                                                            

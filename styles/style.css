@@ -10,7 +10,7 @@
      /*-==================Header Navigation style
                           =====================================*/          
 
-*{
+ body{
   margin: 0%;
 }
 
@@ -169,61 +169,25 @@ height: 100px;
                            
                              /* :::::::::::::::all hightlight end
                                                             ::::::::::::::::::::: 
+/*------------------/
+     footer
+/--------------------*/
 
-
-                            /*=================All Euros highlight start
-                                          ===========================================*/
-
- .Euro-cup{
-    display: flex;
-    margin-bottom: 150px;
-    padding: 10px;
-    margin-left: 5px;
-    margin-top: 30px;
-
-}
-
-.base-section{
-    font-size: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
-  
-}
-.font-size1{
-
-    font-size: 50px;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
-}
-.font-size2{
-    font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
-}
-.half-width img{
-    width: 300px;
+.footer-image img{
+    width: 362.1px;
+    height: 70px;
    
 }
-.Article-section{
-    color: green;
-    
-}
-.Article-section-2{
-    color: crimson;
-}
-.link-button1{
-    text-decoration: none;
-    background-color: blueviolet;
-    color: white;
-    font-weight: 700; 
-    padding: 05px 20px;
 
+.footer-content{
+    text-align: center;
+    background-color: white;
+    padding-bottom: 56px;
+    padding-top: 25px;
     
-}                                         
-.link-button1:hover{background-image: linear-gradient(#0b73fc,rgb(0, 247, 255));
     
-}  
 
+}
 
 
                            
@@ -231,21 +195,17 @@ height: 100px;
                                                      =============================*/  
 
 @media only screen and (max-width:688px) {
-    header{
+
+    .header{
         background-color: #2D25A0;
-       padding-bottom: 80px;
-       
+        padding-bottom: 80px;
     }
+
     nav{
-       
-        
         font-size: 16px;
         font-weight: 500;
-      
-         margin: 10px;
+        margin: 10pxpx;
         margin-top: 20px;
-        
-       
         
     }
     
@@ -259,63 +219,127 @@ height: 100px;
     .login-button{
         background-color: #E02C6D;
         padding: 15px 15px;
+    }
+    
+    
+    /*================== Header Section style Copa America 2021
+                        ================================*/
+    
+    .cupa-america-football{
+     width: 100%;
+     padding-left: 20px;
+                           
+                           
+                        
+    }
+    .header-section{
+      display: block;
+    }
+     .cupa-america-football img{
+         margin-top: 79px;   
+         width: 328px; 
+         height: 259.17px;
+         left: 343px; 
+         top: 374px; 
+    }
+    .font-big{
+        font-size:  44px;
+        font-weight: 700;
+        color: #FFFFFF;
+        font-family: 'Poppins', sans-serif;
+        width: 80%;
+                        }
+    .link-button{
+         text-decoration: none;
+        color: white;
+    }
+    .link-button:hover{background-image: linear-gradient(#0b73fc,rgb(0, 247, 255));
+    
+    }
+    .buttto-text{
+        margin: 5px;
+    }
+    
+                       /*-==================Header Navigation style End
+                                              =====================================*/    
+                                              
+                                              
+                                   /*------------===================---------------/
+                                                      Main style
+                                   /-------------=====================--------------*/
+    
+    
+    main{
+        display: block;
+        
        
     }
-    .button{
-        display: block;
-        font-size: 16px;
+    .conteinar{
+        width: 100%;
+        
+    
+    }                                         /*------------===================---------------/
+                                                                  Main style
+                                            /*-------------=====================--------------*/
+                                            
+    
+    
+                           /*------------============---------------/
+                                    plyer 0f legend style
+                                    /---------=============------------------*/
+    .players{
+        
+        grid-template-columns: repeat(3,1fr);
+        
+    
+    }
+   
        
+    
+                               /*==================All highlight copas 
+                                                   ================================*/
+                
+    .head-container{
+        display: flex;
+    }     
+    }  
+    .highlight{ 
+        width: 100%;
+       padding-bottom: 80px;
+       padding-top: 1%;
       
     }
-    /*------------------------------/
-     --===========Main  section--            
-/------------------------------*/
-
-.cupa-america-football{
+    
+    .highlight img{
+     width: 88%;
+     height: 90%;
+    padding-top: 30px ;
+    padding-left: 20%;
+    }
+                               
+    .box-title{
+    padding-top: 0%;
+    padding-left: 15px;
+    }
+    .font-bold{
     width: 100%;
-    padding-left: 20px;
-}
-.flex-section{
-    display: block;
-   
-}
-.cupa-america-football img{
-     margin-top: 80px;
-     width: 329px;
-     height: 259.17px;
-     left: 344px;
-     top: 374px;
-  
-}
-.font-big{
-    font-size:  44px;
-    font-weight: 700;
-    color: #FFFFFF;
-    font-family: 'Poppins', sans-serif;
-    width: 80%;
-}
-.link-button{
-    text-decoration: none;
-    color: white;
-}
-.link-button:hover{background-image: linear-gradient(#fcbc0b,red);
+    height: 200px;
+    padding:3%
+    }
+    .title-padding{
+                                 
+    position: static;
+     width: 400px;
+    height: 100px;
+    } 
+                               
+                                 /* :::::::::::::::all hightlight end
+                                                                ::::::::::::::::::::: 
+    
+        
+        
+    
+    }
+    
 
-}
-.buttto-text{
-    margin: 5px;
-}
-
-/*---------------------------/
-        main section style
-/---------------------------*/
-.conteinar{
-    width: 100%;
-   
-   
-}
-.players{
-    grid-template-columns: repeat(1,1fr);
-}
-main{
-     display: block;
-}
+}   
